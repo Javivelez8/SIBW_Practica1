@@ -2,19 +2,45 @@ body{
   background-color: #e6e6e6;
 }
 h1{
+  margin-left: 44%;
+  position: absolute;
   color: #9900cc;
   text-align: center;
-
 }
 nav{
   border: solid ;
   border-color: #85e085 ;
 }
 img{
+  max-width: 100%;
   width:auto;
   height:auto;
 }
-aside{
+footer {
+  position: relative;
+  border: solid ;
+  border-color: #85e085;
+  margin-top: 15px;
+  height: 50;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  bottom: 0;
+}
+a:link {
+  color: #9900cc;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#s1{
+  font-size: 2em;
+  font-weight: bolder;
+  color: #9900cc ;
   position: absolute;
   text-align: center;
   margin-right: 80%;
@@ -26,6 +52,53 @@ aside{
   border-color: #85e085;
   float: right;
 }
+#s2{
+  font-size: 2em;
+  font-weight: bolder;
+  color: #9900cc ;
+  position: absolute;
+  text-align: center;
+  margin-right: 80%;
+  margin-top: 470px;
+  float:left;
+  width:20%;
+  background-color: #b3ffb3;
+  border: solid ;
+  border-color: #85e085;
+  float: right;
+}
+#p1{
+  padding:10px;
+  font-size: 1.7em;
+  background-color: #b3ffb3;
+  margin-left: 25%;
+  margin-right: 5%;
+  border: solid;
+  border-color: #85e085;
+}
+#p2{
+  padding:10px;
+  font-size: 1.7em;
+  background-color: #b3ffb3;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: solid;
+  border-color: #85e085;
+}
+#i1{
+  margin-left: 40%;
+  width: 70px;
+  height: 70px;
+}
+#i2{
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: right;
+  width: auto ;
+  height: auto;
+}
 #t1{
   margin-left: 25% ;
   margin-right: 25% ;
@@ -33,13 +106,10 @@ aside{
 }
 #t2{
   font-size: 2em;
-  font-family: "Times New Roman", Times, serif;
   width:75% ;
   height: 90%;
   margin-left: 25%;
   margin-top: 8px;
-
-
 }
 #td1 {
   text-align: center;
@@ -54,15 +124,4 @@ aside{
   border: solid ;
   border-color: #85e085;
   padding: 10px;
-}
-footer {
-  position: relative;
-  border: solid ;
-  border-color: #85e085;
-  margin-top: 15px;
-  height: 50;
-  width: 100%;
-  text-align: center;
-  font-size: 0.8em;
-  bottom: 0;
 }
