@@ -1,1 +1,1 @@
-Esta es la practica 1 de SIBW
+Práctica 1 de SIBW
