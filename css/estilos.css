@@ -2,8 +2,8 @@ body{
   background-color: #e6e6e6;
 }
 h1{
-  margin-left: 44%;
-  position: absolute;
+
+  position: relative;
   color: #9900cc;
   text-align: center;
 }
@@ -17,7 +17,7 @@ img{
   height:auto;
 }
 footer {
-  position: relative;
+  bottom:0px;
   border: solid ;
   border-color: #85e085;
   margin-top: 15px;
@@ -86,7 +86,9 @@ a:hover {
   border-color: #85e085;
 }
 #i1{
-  margin-left: 40%;
+  position: relative;
+  top: 20px;
+  left: -10px;
   width: 70px;
   height: 70px;
 }
